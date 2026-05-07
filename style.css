@@ -1,67 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  margin-top: 50px;
-  background-image: url('weather.webp');
-  background-size: cover;
-  overflow: hidden;
-}
-
-.list {
-  background: rgba(244, 255, 175, 0.578);
-  padding: 30px;
-  border-radius: 20px;
-  width: 620px;
-}
-
-.form {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.input {
-  padding: 10px;
-  border-radius: 10px;
-  width: 100%;
-}
-
-.btn {
-  padding: 10px 15px;
-  border: none;
-  background: #647d08;
-  color: white;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #476504;
-}
-
-.card {
-  text-align: center;
+  background-color: #f4f4f4;
+  font-family: sans-serif;
   padding: 20px;
-  border-radius: 15px;
 }
 
-.card h2 {
-  margin-bottom: 10px;
-  color: #545704;
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
 
-.degree {
-  font-size: 24px;
-  font-weight: 800px;
-  color: #424605;
+h2 {
+  background: white;
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+p {
+  background: white;
+  padding: 10px 15px;
+  margin: -15px 0 10px 0; 
+  width: 300px;
+  border-radius: 0 0 8px 8px;
+  color: #666;
 }
 
 
